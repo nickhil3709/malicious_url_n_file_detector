@@ -1,3 +1,5 @@
 .venv/
 *.csv
 *.joblib
+*.pth
+data/Image_DetectionDataset/

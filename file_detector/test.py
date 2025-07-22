@@ -1,6 +1,3 @@
-import pandas as pd 
-
-df = pd.read_csv("../data/PDFMalware2022.csv")
-print(df.columns)
-print("text values:")
-print(df['text'].value_counts())
+import torch
+print(torch.cuda.is_available())  # True means GPU is ready
+print(torch.cuda.get_device_name(0))  # Prints GPU name
